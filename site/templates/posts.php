@@ -49,7 +49,8 @@ include('./_head.php'); // include header markup ?>
 		if($section->hasChildren > 1) {
 			// output sidebar navigation
 			// see _init.php for the renderNavTree function
-			renderNavTree($section);
+			// TODO uncomment this; see gh:#3
+			//renderNavTree($section);
 		}
 
 		// output sidebar text if the page has it
